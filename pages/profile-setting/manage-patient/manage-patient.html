@@ -1,0 +1,27 @@
+<ion-header>
+    <ion-navbar hideBackButton="true">
+        <ion-buttons left>
+            <button (click)="backToAccountPage()" ion-button icon-left clear small>
+    <ion-icon name="arrow-back"></ion-icon>
+    </button>
+        </ion-buttons>
+        <ion-title>Manage Patient
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <button margin-top padding ion-button (click)="addPatient()" class="button-full1">
+     <ion-icon name = "add-circle" style="font-size:40px" margin-right></ion-icon>Add Patient</button>
+     <ion-card  padding-left>
+             <ion-row no-padding margin-left>
+      <ion-col padding-left no-padding no-margin>
+          <ion-item no-lines no-padding no-margin>
+              <ion-label no-padding no-margin><b>Parvathi</b></ion-label>
+              </ion-item>
+              </ion-col>
+             </ion-row>
+             <ion-row margin-left>
+     <ion-col padding-left no-padding no-margin> <ion-label no-padding no-margin><i>Sister</i></ion-label></ion-col>
+             </ion-row>
+     </ion-card>
+     </ion-content>

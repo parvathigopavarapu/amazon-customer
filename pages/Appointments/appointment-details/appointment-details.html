@@ -1,0 +1,109 @@
+<ion-header>
+    <header-main [text]="title"></header-main>
+</ion-header>
+<ion-content>
+    <ion-card padding-left>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right>
+                <ion-icon name="timer"></ion-icon>
+            </ion-col>
+            <ion-col no-padding no-margin margin-top>
+                <ion-label class="medium dark"><b>Appointment Time</b></ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small light">8 Nov 2017 (Tomorrow) At 11:45AM</ion-label>
+            </ion-col>
+        </ion-row>
+        <hr>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right>
+                <ion-icon name="information-circle"></ion-icon>
+            </ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="medium dark"><b>Symptoms </b></ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label text-wrap class="small light">Cold, Fever</ion-label>
+            </ion-col>
+        </ion-row>
+        <hr>
+
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right>
+                <ion-icon name="medkit"></ion-icon>
+            </ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="medium dark"><b>Doctor Details</b></ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin margin-bottom>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small light">Dr.Sudhakar Reddy (MBBS.MD)</ion-label>
+            </ion-col>
+        </ion-row>
+        <hr>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right>
+                <ion-icon name="medical"></ion-icon>
+            </ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="medium dark"><b>Clinic Details </b></ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small light">Jeevika Clinic</ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small light">#126,Kanaka Layout</ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small light">BSK 2nd Stage</ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small light">560078</ion-label>
+            </ion-col>
+        </ion-row>
+
+        <hr>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right>
+                <ion-icon name="stats"></ion-icon>
+            </ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="medium dark"><b>Status </b></ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row no-padding no-margin>
+            <ion-col col-1 margin-right></ion-col>
+            <ion-col no-padding no-margin>
+                <ion-label class="small" style="color:#ff4400!important"><b>New</b></ion-label>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-3></ion-col>
+            <button ion-button class="button-half">call Contact</button>
+        </ion-row>
+    </ion-card>
+</ion-content>
+<ion-footer no-border no-lines *ngIf="status != 'New'">
+    <button ion-button class="button-half" (click)="gotoviewInvoice()">View Invoice</button>
+    <button ion-button class="button-half" (click)="gotoviewPrescription()">View Prescription</button>
+</ion-footer>

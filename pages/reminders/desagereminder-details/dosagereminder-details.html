@@ -1,0 +1,30 @@
+<ion-header>
+    <header-main [text]="title"></header-main>
+</ion-header>
+<ion-content>
+    <ion-card>
+        <ion-row>
+            <ion-label>Medicine Name: <b>Dolo-650</b></ion-label>
+        </ion-row>
+        <ion-row>
+            <ion-label>Number tablets a day: <b>2</b></ion-label>
+        </ion-row>
+        <ion-row>
+            <ion-label>Start date to take medicine: <b>today Onwords</b></ion-label>
+        </ion-row>
+        <ion-row>
+            <ion-label>End Date to take medicine: <b>05-4-2018</b></ion-label>
+        </ion-row>
+        <ion-row>
+            <ion-label>Number of reminders a day: <b>4</b></ion-label>
+        </ion-row>
+        <ion-row margin-bottom>
+            <ion-label>Time of First Reminder: <b>8:00AM</b></ion-label>
+        </ion-row>
+    </ion-card>
+</ion-content>
+<ion-footer no-border no-padding no-margin>
+    <ion-row>
+        <ion-col> <button ion-button class="button-full" (click)="Edit()">Edit</button></ion-col>
+    </ion-row>
+</ion-footer>

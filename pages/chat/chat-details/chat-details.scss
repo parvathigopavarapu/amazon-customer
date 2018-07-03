@@ -1,0 +1,86 @@
+
+page-chat-details{
+        
+.icon{
+    color: map-get($colors,primary);
+    font-size:35px;
+}
+.message{
+    color: map-get($colors,primary);
+    background-color: white;
+    margin-left:3%;
+   
+}
+.message1{
+    color: map-get($colors,primary);
+    background-color: #99cc99;   
+}
+.type{
+    border:1px solid  map-get($colors,primary);
+    height:12%;
+    width:100%;
+    margin-top:24.3%;
+}
+.scroll-content{
+    overflow-y: scroll;
+}
+
+.btn1{
+    margin-top:-200px;
+    margin-left:80%;
+    background: none;
+}
+.type{
+   border:5px solid white;
+    width:76%;
+    background: white;
+    margin:2%;
+    height:65px
+   
+}
+.div2{
+    top:65px;
+    right:18px;
+    width:55px;
+    height:55px;
+    border-radius:100%;
+      background:map-get($colors,primary);
+      position: fixed;
+}
+.btn5{
+    width:100%;
+    margin-left:5%;
+    margin-right:5%;
+    border-radius: 100%;
+    color:white;
+    font-weight: bold;
+    background:  map-get($colors,primary);
+}
+ion-fab[top] {
+    top: 0;
+}
+.fab1{
+    color:white;font-weight: bold;font-size: 30px;
+}
+
+.icon2{
+    color:white;
+ 
+    padding-top:0px;
+    font-size:15px;
+}
+ 
+ion-label{
+    border-radius: 200px;
+}
+textarea{
+    width:80%;
+    border: none
+}
+.footer{
+    background-color: aliceblue;
+}
+.fab ion-icon{
+    color: white;
+}
+}

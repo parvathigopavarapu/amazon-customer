@@ -1,0 +1,70 @@
+page-invoice-details{
+
+    .label-md {
+    margin: 3px 8px 3px 5%;
+    color: #666666;
+    //font-size: 16px;
+}    .label-wp {
+    margin: 3px 8px 3px 5%;
+    color: #666666;
+   
+}   .label-ios {
+    margin: 3px 8px 3px 5%;
+    color: #666666;
+   
+}
+.text-input-md {
+   margin-top: 1px!important;
+   margin-bottom: 1px!important;
+    height:27px!important;
+    padding-bottom: 2!important;
+       text-align: center!important;
+}.text-input-ios {
+   margin-top: 1px!important;
+   margin-bottom: 1px!important;
+    height:27px!important;
+    padding-bottom: 2!important;
+       text-align: center!important;
+}.text-input-wp {
+   margin-top: 1px!important;
+   margin-bottom: 1px!important;
+    height:27px!important;
+    padding-bottom: 2!important;
+       text-align: center!important;
+}
+.border{
+    border-top:1px solid #666666; 
+    border-left:1px solid #666666; 
+}
+.border-bottom{
+      border-bottom:1px solid #666666;
+}
+.border-right{
+    border-right:1px solid #666666;
+}
+ion-input {
+     border: none; 
+     color:#666666;
+    border-radius: 5px;
+    height: 25px; 
+     width: 100%; 
+     text-align: center!important;
+}
+.button-add1{
+    width:55px;
+    height:55px;
+    border-radius:100%;
+      background:map-get($colors,primary);
+      float: right;
+      bottom:110px;
+      right:20px!important;
+      position:fixed;
+}
+}
+ion-app.md [padding-right] {
+    padding-right: 8px!important;;
+}ion-app.wp [padding-right] {
+    padding-right: 8px!important;;
+}ion-app.ios [padding-right] {
+    padding-right: 8px!important;;
+}

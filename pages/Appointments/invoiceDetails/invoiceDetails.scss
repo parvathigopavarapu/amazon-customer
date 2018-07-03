@@ -1,0 +1,76 @@
+page-invoiceDetails{
+    .large{
+        font-size:17px;
+       // color:black!important;
+    }
+    .medium{
+        font-size:15px;
+        color: black!important;
+    }
+    .small{
+        font-size:14px!important;
+    }
+    .label-md {
+    margin: 3px 8px 3px 5%;
+    color: #666666;
+    font-size: 16px;
+}   .label-wp {
+    margin: 3px 8px 3px 5%;
+    color: #666666;
+    font-size: 16px;
+}
+.text-input-md {
+   margin-top: 1px!important;
+   margin-bottom: 1px!important;
+   height:27px!important;
+   padding-bottom: 2!important;
+   text-align: center!important;
+}.text-input-wp {
+   margin-top: 1px!important;
+   margin-bottom: 1px!important;
+   height:27px!important;
+   padding-bottom: 2!important;
+   text-align: center!important;
+}
+.border{
+    border-top:1px solid #666666;
+   
+      border-left:1px solid #666666;
+    
+}
+.border-bottom{
+ border-bottom:1px solid #666666;
+}
+.border-right{
+ border-right:1px solid #666666;
+}
+ion-input {
+     border: none; 
+     color:#666666;
+    border-radius: 5px!important;
+    
+    height: 25px; 
+     width: 100%; 
+     text-align: center!important;
+    // margin-left: 5%; 
+    // margin-right: 5%; 
+}
+.button-add1{
+    width:55px;
+    height:55px;
+    border-radius:100%;
+      background:map-get($colors,primary);
+      float: right;
+      bottom:115px;
+      right:20px!important;
+      position:fixed;
+}
+.row-class{
+    margin-top:0px!important;
+    margin-left:16px!important;
+    margin-right:16px!important;
+}
+}
+ion-app.md [padding-right] {
+    padding-right: 8px!important;;
+}

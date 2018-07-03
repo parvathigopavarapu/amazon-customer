@@ -1,0 +1,31 @@
+<ion-header>
+    <header-main [text]='title'></header-main>
+</ion-header>
+<ion-content>
+    <ion-card>
+        <ion-label class="large dark">Deepika</ion-label>
+        <img src="../../../assets/imgs/pre2.jpg" style="height:80px;width:100px" padding-top />
+        <ion-label class="medium dark" text-wrap>Should i deliver all the medicines mentioned in your prescription?</ion-label>
+
+        <ion-list radio-group>
+            <ion-item no-padding>
+                <ion-radio value="golang" checked="true" no-padding no-margin></ion-radio>
+                <ion-label text-wrap class="x-small light">I will inform when he calls to confirm my order</ion-label>
+            </ion-item>
+            <ion-item no-padding>
+                <ion-radio value="golang1" no-padding no-margin></ion-radio>
+                <ion-label text-wrap class="x-small light">Yes i want all the medicines</ion-label>
+            </ion-item>
+            <ion-item no-padding>
+                <ion-radio value="golang2" no-padding no-margin></ion-radio>
+                <ion-label text-wrap class="x-small light">Let me specify the names of the medicines</ion-label>
+            </ion-item>
+
+        </ion-list>
+        <ion-label class="name"><b>Add Notes:</b></ion-label>
+        <ion-textarea class="x-small light" no-padding margin-bottom placeholder="Enter text here in case of any additional information regarding your order"></ion-textarea>
+    </ion-card>
+</ion-content>
+<ion-footer no-border no-padding no-margin>
+    <button ion-button class="button-footer" (click)="gotoSelectAddressPage()">Select Address</button>
+</ion-footer>

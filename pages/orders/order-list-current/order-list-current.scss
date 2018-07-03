@@ -1,0 +1,29 @@
+page-order-list-current{
+    .col{
+        height: 28px;
+    }
+    .label{
+        margin:0px !important;
+        color: map-get($colors,primary) !important;
+    }   
+   .item-md{
+    width: 100% !important;
+    margin:0px !important;
+    padding: 0px !important;
+    border-bottom: 1px solid map-get($colors,dark);
+    }
+   .item-ios
+   {
+    width: 100% !important;
+   border-bottom: 1px solid map-get($colors,dark);
+
+    }
+   }
+ion-app.wp [padding-top] {
+    padding-top: 2px;
+}ion-app.md [padding-top] {
+    padding-top: 9px;
+}ion-app.ios [padding-top] {
+    padding-top: 2px;
+
+}

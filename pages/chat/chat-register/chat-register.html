@@ -1,0 +1,16 @@
+<ion-header>
+  <header-main [text]='title'></header-main>
+</ion-header>
+<ion-content style="background:#f5f5f5">
+  <ion-label class="label-a" text-wrap padding>Welcome to Medi Serve App. We are waiting for your message</ion-label>
+  <div style="margin-top:10%">
+    <ion-label class="label1">Name<b style="color:#cc0033;font-size:20px;padding-top:60%">*</b></ion-label>
+    <ion-input type="text" placeholder="Name"></ion-input>
+
+    <ion-label class="label1">Reference Type<b style="color:#cc0033;font-size:20px;padding-top:60%">*</b></ion-label>
+    <ion-input type="text" placeholder="Choose area"></ion-input>
+    <ion-label class="label1">Reference Id<b style="color:#cc0033;font-size:20px;padding-top:60%">*</b></ion-label>
+    <ion-input type="text" placeholder="Reference Id"></ion-input>
+  </div>
+  <button ion-button class="btn-m" (click)="startChat()">Start Chatting</button>
+</ion-content>

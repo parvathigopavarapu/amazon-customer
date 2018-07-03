@@ -1,0 +1,37 @@
+page-prescription-details{
+  
+    .item{
+        background: none !important;
+    }
+     .div1{
+        margin-top:20%;
+    }
+.label-md{
+    margin:0px !important;
+}.label-wp{
+    margin:0px !important;
+}
+.label-ios{
+    margin:0px !important;
+}
+.div2{
+    border-radius: 100px;
+    border:1px solid map-get($colors,primary);
+    text-align: center;
+    margin:3px;
+    padding:3px
+}
+ .col{
+       padding:0px;
+   }
+
+.content{
+    color:map-get($colors,primary)
+}
+.border{
+    border:1px solid #ff4400;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+}

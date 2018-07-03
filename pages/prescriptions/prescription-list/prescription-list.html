@@ -1,0 +1,38 @@
+<ion-header>
+    <header-main [text]="title"></header-main>
+</ion-header>
+<ion-content>
+    <ion-item no-lines no-padding class="devider" no-padding>
+        <ion-label class="label-small" no-padding no-margin>Parvathi</ion-label>
+    </ion-item>
+    <ion-item-group *ngFor="let prescription of listOfPrescription" no-padding detail-push no-padding>
+        <ion-list no-margin>
+            <ion-card>
+                <ion-item-sliding>
+                    <ion-item (click)="viewprescription(prescription.prescriptionId,prescription.status)" detail-push lines no-padding no-margin>
+                        <ion-row no-padding no-margin>
+                            <ion-col col-6 class="large dark"> <b>{{prescription.prescriptionId}}</b></ion-col>
+                            <ion-col col-6 class="medium light"><b float-right>{{prescription.doctorName}}</b></ion-col>
+                        </ion-row>
+                        <ion-row padding-top>
+                            <ion-col class="small light">{{prescription.symptoms}}</ion-col>
+                            <ion-col class="small dark">
+                                <p float-right> {{prescription.clinic}}, {{prescription.patientMob}} </p>
+                            </ion-col>
+                        </ion-row>
+                        <ion-row padding-top>
+                            <ion-col col-8 class="small light">{{prescription.date}}, {{prescription.time}}</ion-col>
+                            <ion-col class="border" no-padding><b style="color:#ff4400">{{prescription.status}}</b></ion-col>
+                        </ion-row>
+                        <ion-row no-margin padding-bottom>
+                            <ion-col col-9></ion-col>
+                        </ion-row>
+                    </ion-item>
+                    <ion-item-options>
+                        <button text-wrap (click)="editAppointment(appointment.patientId)" style="border:1px solid #4a924a"><ion-icon name="create" ></ion-icon> Edit</button>
+                    </ion-item-options>
+                </ion-item-sliding>
+            </ion-card>
+        </ion-list>
+    </ion-item-group>
+</ion-content>

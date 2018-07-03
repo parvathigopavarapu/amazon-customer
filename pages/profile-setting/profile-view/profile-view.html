@@ -1,0 +1,15 @@
+<ion-header>
+    <ion-navbar hideBackButton="true">
+        <ion-buttons left>
+            <button (click)="backToProfilePage()" ion-button icon-left clear small>
+    <ion-icon name="arrow-back"></ion-icon>
+    </button>
+        </ion-buttons>
+        <ion-title>Profile
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <profile-details [profile]='profile'></profile-details>
+    <button ion-button class="button-full" (click)="gotoEditProfilePage()"> Edit Profile </button>
+</ion-content>
